@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* :root[
+--Primary-Cyan-Text:hsl(179, 62%, 43%)
+--Primary-Yellow-Text:hsl(71, 73%, 54%)
+--Neutral-Lgt-Gray:hsl(204, 43%, 93%)
+--Neutral-Gray-Blue:hsl(218, 22%, 67%)
+] */
+body{
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+ }
+ main{
+  background-color: white;
+  min-width:800px;
+  width:800px;
+  margin:auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 10px rgba(0,0,0,0.05);
+  overflow: hidden;
+ }
+ section{
+   padding: 35px;
+ }
+section .white{
+color: hsl(179, 62%, 43%);
+padding-bottom: 2rem;
+font-size: 2rem;
+font-weight: 700;
+}
+h1{
+  color: hsl(179, 62%, 43%) ;
+  font-size: 2.5rem;
+  
+}
+ h2{
+color:hsl(71, 73%, 54%);
+font-size: 1.5rem;
+font-weight: 700;
+}
+.top{
+color:hsl(218, 22%, 67%);
+font-size: 1rem;
+font-weight: 400;
+}
+section.cyan{
+background-color:hsl(179, 62%, 43%) ;
+color:white;
+}
+section.grayish-blue{
+  background-color:hsl(179, 62%, 43%, .75) ;
+  color:white;
+}
+.row{
+  display: flex;
+}
+.row > section{
+  flex: 1;
+}
+ h3{
+
+  font-size: 1.5rem;
+
+}
+section.grayish-blue p{
+  color:lightgray;
+  line-height: 1.5rem;
+  
+}
+.dollar{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.month{
+  font-size: 1rem;
+  font-weight: 400; 
+}
+h4{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom:5px;
+}
+button{
+  
+  width: 100%;
+  padding:1rem;
+  background-color:hsl(71, 73%, 54%) ;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 10px rgba(0,0,0,0.05);
+  color:white;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+} 
+@media screen and (max-width: 600px){
+  .row{
+    flex-direction: column;
+  }
+}
